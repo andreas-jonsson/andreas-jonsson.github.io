@@ -1,0 +1,47 @@
+@font-face {
+  font-family: GlassTTYVT220;
+  src: local("Glass TTY VT220"), local("Glass TTY VT220 Medium"), url("Glass_TTY_VT220.ttf") format("truetype");
+}
+
+pre, div, input {
+  font-size: 20px;
+  font-family: GlassTTYVT220;
+}
+
+input[type=text], input[type=submit]:active, div.find a {
+  background-color: #e5b800;
+  color: #0a0600;
+}
+
+html, input[type=submit], div.find a:active {
+  color: #e5b800;
+  background-color: #0a0600;
+}
+
+a {
+  color: #ecc800;
+}
+
+a:hover {
+  color: #fcd800
+}
+
+.top-div {
+  background-color: #997b00;
+  color: #0a0600;
+  position: fixed;
+  top: 0;
+  height: auto;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.bottom-div {
+  background-color: #997b00;
+  color: #0a0600;
+  position: fixed;
+  bottom: 0;
+  height: auto;
+  margin-top: 40px;
+  width: 100%;
+}
